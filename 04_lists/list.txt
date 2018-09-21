@@ -1,0 +1,13 @@
+Important function on the List module:
+- delete
+- delete_at
+- update_at
+- insert_at
+- replace_at
+- pop_at
+- duplicate
+- flatten
+- last
+- keydelete
+- keyfind
+- keyreplace
