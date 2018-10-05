@@ -1,5 +1,11 @@
 # elixir_basics
 
+## Pure functions:
+  functions have these properties:
+    - The values are immutable. 
+    - The function’s result is affected only by the function’s arguments. 
+    - The function doesn’t generate effects beyond the value it returns. 
+
 ## Important Modules 
 * refer to https://hexdocs.pm/elixir/Kernel.html and check:
   - String
