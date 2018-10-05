@@ -1,10 +1,30 @@
 # elixir_basics
 
 ## Pure functions:
-  functions have these properties:
-    - The values are immutable. 
-    - The function’s result is affected only by the function’s arguments. 
-    - The function doesn’t generate effects beyond the value it returns. 
+ - Pure function are functions have these properties:
+   * The values are immutable. 
+   * The function’s result is affected only by the function’s arguments. 
+   * The function doesn’t generate effects beyond the value it returns. 
+
+## Important conventions:
+ - Variable name: must follow thw ***snake_case*** (eg: first_name)
+ - Function name: the same as variable name
+ - Module name: must follow the ***CamelCase*** (eg: MyModule)  
+
+## Strings:
+ - String concatenation: use <> (eg: "hello"<>" worls" => hello worls).
+ - String interpolation: use #{} (eg: "Hello #{name}"). 
+ - Always use #{}  instead of <>.
+
+## variables:
+ - Elixir has two types of variables: bound and free variable 
+   * When variable is defined as function parameter or in function body(local       variable) is bound variable Otherwise it is a free variable.  
+
+## Anonymous functions:
+ - Syntax: func_name = fn(arg1, arg2) -> function body end
+ - Invoke anonymous function: func_name.(args)   
+ - Almost uses for one line functions.
+ - Anonymous functions cannot have optional arguments .    
 
 ## Important Modules 
 * refer to https://hexdocs.pm/elixir/Kernel.html and check:
