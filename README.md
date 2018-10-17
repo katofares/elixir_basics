@@ -1,4 +1,5 @@
-# elixir_basics
+# Elixir_basics : Level One
+#### Here we covers the furst part of Programming Elixir 1.6 book and other sources.
 
 ## Pure functions:
  - Pure function are functions have these properties:
